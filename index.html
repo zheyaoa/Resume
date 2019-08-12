@@ -5,8 +5,94 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="./styles/iconfont.css">
+    <style>
+        html{
+            background: #e0e0e0;
+            font-family: "Helvetica Neue", "Arial", "PingFang SC", "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+        }
+        a{
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .container{
+            width: 970px;
+            margin: 10px auto 0 auto;
+            box-shadow: 2px 2px 5px
+        }
+        .QRCode{
+            width: 130px;
+            height: 130px;
+            float: left;
+        }
+        header{
+            padding: 30px 45px;
+            color: #fff;
+            background: #333;
+            overflow: hidden;
+        }
+
+        .message{
+            margin: 0;
+            font-size: 18px;
+            line-height: 1.4;
+            float: left;
+            padding-left: 20px;
+        }
+        .message>li{
+            list-style: none;
+        }
+        .message>li:hover,.message a:hover{
+            transition: 0.3s ease-out;
+            color: #A3D3D1;
+        }
+        .title{
+            float: right;
+            text-align: right;
+        }
+        .title>h1{
+            font-size: 72px;
+            line-height: 1;
+            margin: 5px 0;
+            padding: 5px 0;
+        }
+        .title>h2{
+            font-size: 20.8px;
+            font-weight: 400;
+            margin: 5px 0;
+            padding: 5px 6px;
+        }
+
+
+    </style>
 </head>
 <body>
-    this is a simple demo
+    <div class="container">
+        <header>
+            <img class="QRCode" src="./images/yuxin.yu.jpeg">
+            <ul class="message">
+                <li class="iconfont icon-bangdingshouji">
+                    18879717716
+                </li>
+                <li class="iconfont icon-youxiang">
+                    <a href="mailto:zheyaoa@gmail.com">zheyaoa@gmail.com</a>
+                </li>
+                <li class="iconfont icon-weixin">
+                    折曜
+                </li>
+                <li class="iconfont icon-GitHub">
+                    <a href="https://github.com/zheyaoa" target="_black">zheyaoa</a>
+                </li>
+                <li class="iconfont icon-wifi">
+                    <a href="https://zheyaoa.github.io/" target="_black">zheyaoa 的博客</a>
+                </li>
+            </ul>
+            <div class="title">
+                <h1>余雨欣</h1>
+                <h2>前端工程师</h2>
+            </div>
+        </header>
+    </div>
 </body>
 </html>
