@@ -8,13 +8,16 @@
     <title>Document</title>
     <link rel="stylesheet" href="./styles/font/iconfont.css">
     <style>
-        html {
+        html,
+        body {
             background: #e0e0e0;
             font-family: "Helvetica Neue", "Arial", "PingFang SC", "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
         }
-        *{
+
+        * {
             box-sizing: border-box
         }
+
         a {
             text-decoration: none;
             color: #fff;
@@ -24,7 +27,7 @@
             margin: 0px 0px;
         }
 
-        strong{
+        strong {
             color: #008080
         }
 
@@ -131,22 +134,32 @@
             background: #333333;
             color: #ffffff;
             font-size: 17px;
-            line-height: 1.33;
+            line-height: 1.5;
             font-weight: 400;
             padding-left: 25px;
             margin-top: 13px;
         }
 
-        .education-name{
-            font-size: 32px;
-            padding: 6px 0 5px 25px;
+        .timeline-title>.time {
+            float: right;
+            padding-right: 10px;
         }
-        
-        .timeline-item > ul {
+
+        .education-name {
+            font-size: 32px;
+            padding: 6px 0px 5px 25px;
+        }
+
+        .timeline-item>ul {
             padding: 0 0 0 25px;
             margin: 0
         }
 
+        .timeline-item>.position {
+            font-size: 18px;
+            font-weight: 700;
+            margin: 6px 0 5px 25px
+        }
     </style>
 </head>
 
@@ -192,12 +205,82 @@
                         <div class="timeline-item icon-xueweimao">
                             <div class="timeline-title">2016-2020</div>
                             <div class="education-name">南昌大学</div>
-                            <ul>    
+                            <ul>
                                 <li>计算机科学与技术(本科)</li>
-                                <li>南昌大学新媒体工作室—<strong>前端负责人</strong></li>
-                                <li>北京市长亭科技—<strong>前端工程师</strong></li>
+                                <li class="iconfont icon-rongyu">2018.09-2019.02新媒体工作室 — <strong>前端负责人</strong></li>
+                                <li class="iconfont icon-rongyu"><strong>2019.02</strong>北京市长亭科技 — <strong>前端工程师</strong></li>
                             </ul>
                         </div>
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="sec-title-wrapper">
+                        <div class="iconfont icon-study"></div>
+                        <div class="sec-title">
+                            <h3>
+                                <div class="sec-zh">项目与工作经验</div>
+                                <div class="sec-en">Experience</div>
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="sec-content">
+                        <div class="timeline-item icon-xueweimao">
+                            <div class="timeline-title">
+                                <span>K01 网络攻击阻断系统</span>
+                                <span class="time">2019.07-至今</span>
+                            </div>
+                            <div class="position">前端工程师</div>
+                            <ul>
+                                <li>基于<strong>Vue.js+TSX+Vuex</strong>开发系统1.0版本</li>
+                                <li class="iconfont icon-rongyu">基于<strong>Vue-cli+webpack</strong>完成项目前端部分的构建</li>
+                                <li class="iconfont icon-rongyu">
+                                    维护公司内部组件库/开发了如基于<strong>Vuex+Vue-Router</strong>的导航栏组件等且具有一定可复用性</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="sec-content">
+                        <div class="timeline-item icon-xueweimao">
+                            <div class="timeline-title">
+                                <span>长亭科技雷池(Web应用防火墙)</span>
+                                <span class="time">2019.02-2019.06</span>
+                            </div>
+                            <div class="position">前端工程师</div>
+                            <ul>
+                                <li>基于<strong>Vue.js+TSX+Vuex</strong>完成基本需求的实现</li>
+                                <li class="iconfont icon-rongyu">将UI框架从<strong>element-ui</strong>迁移到公司内部UI框架</li>
+                                <li class="iconfont icon-rongyu">整理需求与代码逻辑,完成部分模块的重构</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="sec-content">
+                        <div class="timeline-item icon-xueweimao">
+                            <div class="timeline-title">
+                                <span>新媒体工作室</span>
+                                <span class="time">2017.06-2018.08</span>
+                            </div>
+                            <div class="position">前端/后端</div>
+                            <ul>
+                                <li>基于<strong>Vue.js+Element-UI</strong>完成基本需求的实现</li>
+                                <li class="iconfont icon-rongyu">基于axios完成二次封装,完成页面限权和统一错误处理</li>
+                                <li class="iconfont icon-rongyu">使用cookie保存用户信息,记忆登入状态</li>
+                                <li>基于Java+Servlet开发后台系统,使用MVC结构,使用mysql作为数据库</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="sec-content">
+                            <div class="timeline-item icon-xueweimao">
+                                <div class="timeline-title">
+                                    <span>课程作业网上书店</span>
+                                    <span class="time">2018.10-2018.11</span>
+                                </div>
+                                <div class="position">前端/后端</div>
+                                <ul>
+                                    <li>基于<strong>Vue.js+Element-UI</strong>完成基本需求的实现</li>
+                                    <li class="iconfont icon-rongyu">基于axios完成二次封装,完成页面限权和统一错误处理</li>
+                                    <li class="iconfont icon-rongyu">使用cookie保存用户信息,记忆登入状态</li>
+                                    <li>基于Java+Servlet开发后台系统,使用MVC结构,使用mysql作为数据库</li>
+                                </ul>
+                            </div>
                     </div>
                 </div>
             </div>
