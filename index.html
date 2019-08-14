@@ -1,76 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="./styles/iconfont.css">
+    <link rel="stylesheet" href="./styles/font/iconfont.css">
     <style>
-        html{
+        html {
             background: #e0e0e0;
             font-family: "Helvetica Neue", "Arial", "PingFang SC", "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
         }
-        a{
+        *{
+            box-sizing: border-box
+        }
+        a {
             text-decoration: none;
             color: #fff;
         }
 
-        .container{
+        h3 {
+            margin: 0px 0px;
+        }
+
+        strong{
+            color: #008080
+        }
+
+        li {
+            list-style: none;
+        }
+
+        .container {
             width: 970px;
             margin: 10px auto 0 auto;
             box-shadow: 2px 2px 5px
         }
-        .QRCode{
+
+        .avatar {
             width: 130px;
             height: 130px;
             float: left;
         }
-        header{
+
+        header {
             padding: 30px 45px;
             color: #fff;
             background: #333;
             overflow: hidden;
         }
 
-        .message{
+        .message {
             margin: 0;
             font-size: 18px;
             line-height: 1.4;
             float: left;
             padding-left: 20px;
         }
-        .message>li{
-            list-style: none;
-        }
-        .message>li:hover,.message a:hover{
+
+
+
+        .message>li:hover,
+        .message a:hover {
             transition: 0.3s ease-out;
             color: #A3D3D1;
         }
-        .title{
+
+        .title {
             float: right;
             text-align: right;
         }
-        .title>h1{
+
+        .title>h1 {
             font-size: 72px;
             line-height: 1;
             margin: 5px 0;
             padding: 5px 0;
         }
-        .title>h2{
+
+        .title>h2 {
             font-size: 20.8px;
             font-weight: 400;
             margin: 5px 0;
             padding: 5px 6px;
         }
 
+        .content {
+            padding: 30px 45px;
+            background: #fff;
+            overflow: hidden;
+        }
+
+        .column-6 {
+            float: left;
+            width: 50%
+        }
+
+        .sec-title-wrapper {
+            height: 30px;
+        }
+
+        .sec-title-wrapper>div {
+            float: left;
+        }
+
+        .sec-title {
+            padding-left: 10px;
+        }
+
+        .sec-zh {
+            font-size: 20px
+        }
+
+        .sec-en {
+            font-size: 16px;
+            font-weight: 700;
+            font-variant: small-caps;
+            color: teal;
+        }
+
+        .sec-content {
+            position: relative;
+            padding-top: 20px;
+            margin-left: 17px;
+            border-left: 5px solid #333333
+        }
+
+        .timeline-title {
+            background: #333333;
+            color: #ffffff;
+            font-size: 17px;
+            line-height: 1.33;
+            font-weight: 400;
+            padding-left: 25px;
+            margin-top: 13px;
+        }
+
+        .education-name{
+            font-size: 32px;
+            padding: 6px 0 5px 25px;
+        }
+        
+        .timeline-item > ul {
+            padding: 0 0 0 25px;
+            margin: 0
+        }
 
     </style>
 </head>
+
 <body>
     <div class="container">
         <header>
-            <img class="QRCode" src="./images/yuxin.yu.jpeg">
+            <img class="avatar" src="./images/yuxin.yu.jpeg">
             <ul class="message">
                 <li class="iconfont icon-bangdingshouji">
                     18879717716
@@ -93,6 +176,34 @@
                 <h2>前端工程师</h2>
             </div>
         </header>
+        <div class="content">
+            <div class="column-6">
+                <div class="section">
+                    <div class="sec-title-wrapper">
+                        <div class="iconfont icon-study"></div>
+                        <div class="sec-title">
+                            <h3>
+                                <div class="sec-zh">教育经历</div>
+                                <div class="sec-en">Education</div>
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="sec-content">
+                        <div class="timeline-item icon-xueweimao">
+                            <div class="timeline-title">2016-2020</div>
+                            <div class="education-name">南昌大学</div>
+                            <ul>    
+                                <li>计算机科学与技术(本科)</li>
+                                <li>南昌大学新媒体工作室—<strong>前端负责人</strong></li>
+                                <li>北京市长亭科技—<strong>前端工程师</strong></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column-6"></div>
+        </div>
     </div>
 </body>
+
 </html>
