@@ -1,2 +1,3 @@
 # Resume
-A simple resume generation tool
+写的一个基于 html + css 的简历页面，想修改的话可以直接改代码
+下一步会做一个表单在线修改简历。(有时间的话)
