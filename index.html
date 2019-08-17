@@ -160,6 +160,29 @@
             font-weight: 700;
             margin: 6px 0 5px 25px
         }
+        .lang-cert{
+            display: flex;
+        }
+        .lang-grade{
+            font-size: 20px;
+            font-weight: 700;
+        }
+        .lang-progress{
+            margin-left: 26px;
+            flex-grow: 1;
+            background: #333333
+        }
+        .lang-progress-bar{
+            width:64%;
+            background: #008080;
+            overflow: hidden;
+        }
+        .lang-progress-label{
+            float: right;
+            line-height: 25px;
+            padding-right: 5px;
+            color: #ffffff
+        }
     </style>
 </head>
 
@@ -207,10 +230,33 @@
                             <div class="education-name">南昌大学</div>
                             <ul>
                                 <li>计算机科学与技术(本科)</li>
-                                <li class="iconfont icon-rongyu">2018.09-2019.02新媒体工作室 — <strong>前端负责人</strong></li>
+                                <li class="iconfont icon-rongyu"><strong>2017.04-2018.09</strong>新媒体工作室 — <strong>前端工程师</strong></li>
+                                <li class="iconfont icon-rongyu"><strong>2018.09-2019.02</strong>新媒体工作室 — <strong>前端负责人</strong></li>
                                 <li class="iconfont icon-rongyu"><strong>2019.02</strong>北京市长亭科技 — <strong>前端工程师</strong></li>
                             </ul>
                         </div>
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="sec-title-wrapper">
+                        <div class="iconfont icon-study"></div>
+                        <div class="sec-title">
+                            <h3>
+                                <div class="sec-zh">语言水平</div>
+                                <div class="sec-en">Language</div>
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="sec-content">
+                        <div class="lang-cert">
+                            <div class="lang-grade">CET-4</div>
+                            <div class="lang-progress">
+                                <div class="lang-progress-bar"><span class="lang-progress-label">480</span></div>
+                            </div>
+                        </div>
+                        <ul>
+                            <li>基于<strong>Vue.js+TSX+Vuex</strong>开发系统1.0版本</li>
+                        </ul>
                     </div>
                 </div>
                 <div class="section">
@@ -229,9 +275,9 @@
                                 <span>K01 网络攻击阻断系统</span>
                                 <span class="time">2019.07-至今</span>
                             </div>
-                            <div class="position">前端工程师</div>
+                            <div class="position">前端负责人</div>
                             <ul>
-                                <li>基于<strong>Vue.js+TSX+Vuex</strong>开发系统1.0版本</li>
+                                <li>负责系统前端开发环境的构建,基于<strong>Vue.js+TSX+Vuex</strong>开发系统1.0版本</li>
                                 <li class="iconfont icon-rongyu">基于<strong>Vue-cli+webpack</strong>完成项目前端部分的构建</li>
                                 <li class="iconfont icon-rongyu">
                                     维护公司内部组件库/开发了如基于<strong>Vuex+Vue-Router</strong>的导航栏组件等且具有一定可复用性</li>
@@ -247,7 +293,7 @@
                             <div class="position">前端工程师</div>
                             <ul>
                                 <li>基于<strong>Vue.js+TSX+Vuex</strong>完成基本需求的实现</li>
-                                <li class="iconfont icon-rongyu">将UI框架从<strong>element-ui</strong>迁移到公司内部UI框架</li>
+                                <li class="iconfont icon-rongyu">将UI框架从<strong>Element-UI</strong>迁移到公司内部UI框架</li>
                                 <li class="iconfont icon-rongyu">整理需求与代码逻辑,完成部分模块的重构</li>
                             </ul>
                         </div>
@@ -284,7 +330,99 @@
                     </div>
                 </div>
             </div>
-            <div class="column-6"></div>
+            <div class="column-6">
+                <div class="section">
+                    <div class="sec-title-wrapper">
+                        <div class="iconfont icon-study"></div>
+                        <div class="sec-title">
+                            <h3>
+                                <div class="sec-zh">技能</div>
+                                <div class="sec-en">Skills</div>
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="sec-content">
+                        <div class="timeline-item icon-xueweimao">
+                            <div class="timeline-title">
+                                <span>web前端</span>
+                            </div>
+                            <div class="skill-name">
+                                <strong>HTML/CSS</strong>
+                            </div>
+                            <ul>
+                                <li>能编写语义化的<strong>HTML</strong>,熟悉<strong>CSS</strong>的使用,能编写常规的布局与动画</li>
+                                <li>了解<strong>HTML5/CSS3</strong>,能熟练使用部分新特性</li>
+                                <li>能编写<strong>响应式/移动端</strong>页面</li>
+                            </ul>
+                            <div class="skill-name">
+                                <strong>ESMAScript(JavaScript)</strong>
+                            </div>
+                            <ul>
+                                <li>了解<strong>JavaScript/ES6</strong>,能编写出遵循代码规范的代码</li>
+                                <li>了解<strong>JavaScript面向对象知识</strong>,对Vue.js源码有过深入了解</li>
+                                <li>熟悉异步编程,<strong>掌握常见的解决方案及原理</strong></li>
+                            </ul>
+                            <div class="skill-name">
+                                <strong>前端工程化实现</strong>
+                            </div>
+                            <ul>
+                                <li>日用使用<strong>ts + Vue/React</strong>完成各类需求</li>
+                                <li>日常使用<strong>Babel/ES6/TypeScript/TSLint</strong>本地化开发</li>
+                                <li>熟练使用<strong>Webpack</strong>,不借助脚手架，能完成<strong>前端工程化项目</strong>的构建</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="sec-content">
+                        <div class="timeline-item icon-xueweimao">
+                            <div class="timeline-title">
+                                <span>web 后端</span>
+                            </div>
+                            <div class="skill-name">
+                                <strong>node.js</strong>
+                            </div>
+                            <ul>
+                                <li>使用<strong>node.js</strong>开发爬虫程序,使用异步控制来保证爬虫的有效和快速</li>
+                                <li>能配合<strong>mongodb/mysql</strong>完成<strong>CURD</strong></li>
+                            </ul>
+                            <div class="skill-name">
+                                <strong>Java</strong>
+                            </div>
+                            <ul>
+                                <li>能用配合<strong>mysql</strong>完成<strong>CURD</strong></li>
+                                <li>能正常的进行<strong>Java/JavaSpring</strong>项目的开发</li>
+                            </ul>
+                            <div class="skill-name">
+                                <strong>其他知识</strong>
+                            </div>
+                            <ul>
+                                <li>熟悉<strong>HTTP常见知识</strong>,对<strong>HTTP2/websocket</strong>知识有一定了解</li>
+                                <li>日常使用<strong>Docker</strong>完成项目的构建与部署</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="sec-content">
+                        <div class="timeline-item icon-xueweimao">
+                            <div class="timeline-title">
+                                <span>其他知识</span>
+                            </div>
+                            <div class="skill-name">
+                                <strong>计算机基础</strong>
+                            </div>                            
+                            <ul>
+                                <li>计算机基础较好,对计算机与编程有极大热情,自学能力强</li>
+                                <li>坚持编写原创技术博客，对遇到的问题做总结归纳</li>
+                            </ul>
+                            <div class="skill-name">
+                                <strong>工具使用</strong>
+                            </div>                            
+                            <ul>
+                                <li>有Linux使用经验,使用Ubuntu作为日常系统</li>
+                                <li>熟练使用Git等代码管理与团队协作工具</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </body>
