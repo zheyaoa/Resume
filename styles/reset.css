@@ -1,0 +1,31 @@
+html,
+body {
+    background: #e0e0e0;
+    font-family: "Helvetica Neue", "Arial", "PingFang SC", "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+
+* {
+    box-sizing: border-box
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+h3 {
+    margin: 0px 0px;
+}
+
+ul {
+    padding: 0 0 0 25px;
+    margin: 0
+}
+
+strong {
+    color: #008080
+}
+
+li {
+    list-style: none;
+}
