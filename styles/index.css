@@ -1,4 +1,4 @@
-@media(min-width:1024px){
+/* @media(min-width:1024px){ */
     .column-6 {
         float: left;
         width: 50%
@@ -38,9 +38,9 @@
         overflow: hidden;
     }
     
-}
+/* } */
 
-@media(max-width:1024px){
+/* @media(max-width:1024px){
     .column-6 {
         float: left;
         width: 100%
@@ -79,10 +79,7 @@
     
 }
 
-
-
-
-
+ */
 
 
 .message {
@@ -170,11 +167,16 @@
     padding-right: 10px;
 }
 
+.education,.sec-education-content{
+    font-size: 16px;
+}
+
 .education-name {
     font-size: 32px;
     padding: 6px 0px 5px 25px;
     line-height: 1.15
 }
+
 
 .position {
     font-size: 18px;

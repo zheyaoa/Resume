@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>折曜 - 前端工程师</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js"></script>
+</head>
+
+<body>
+    <div class="container" id="app">
+        <header>
+            <div class="title">
+                    <h1>{{name}}</h1>
+                    <h2>{{target}}</h2>
+            </div>
+            <img class="avatar" :src=avatar>
+            <ul class="message" >
+                <li v-for="item in messages" class="iconfont-title" :class=item.icon>
+                    <a href={item.detail}>{{item.title}}</a>
+                </li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="column-6">
+                <div class="section">
+                    <title-wrapper zh="教育经历" en="Education" icon="icon-study"></title-wrapper>
+                    <template v-for="edu in education">
+                        <div class="sec-content">
+                                <div class="timeline-item ">
+                                    <div class="timeline-title icon-tag iconfont-middle" v-html="edu.time"></div>
+                                    <div class="education-name" v-html="edu.school"></div>
+                                    <ul>
+                                        <li class="iconfont icon-xueweimao" v-html="edu.profession"></li>
+                                        <template v-for="item in edu.experience">
+                                            <li class="iconfont icon-rongyu"><strong v-html="item.time"></strong>{{item.company}} — <strong>{{item.position}}</strong></li>
+                                        </template>
+                                    </ul>
+                                </div>
+                            </div>
+                    </template>
+                </div>
+                <div class="section">
+                    <title-wrapper zh="语言水平" en="Language" icon="icon-yingyu"></title-wrapper>
+                    <template v-for="item in English">
+                        <div class="sec-education-content">
+                            <div class="lang-cert">
+                                <div class="lang-grade">{{item.name}}</div>
+                                <div class="lang-progress">
+                                    <div class="lang-progress-bar"><span class="lang-progress-label">{{item.grade}}</span></div>
+                                </div>
+                            </div>
+                            <ul>
+                                <li class="iconfont icon-wujiaoxing">{{item.desc}}</li>
+                            </ul>
+                        </div>
+                    </template>
+                </div>
+                <div class="section">
+                    <title-wrapper zh="项目与工作经验" en="Experience" icon="icon-gongzuo"></title-wrapper>
+                    <div class="sec-content" v-for="item in project">
+                        <div class="timeline-item">
+                            <div class="timeline-title iconfont-middle icon-gongju">
+                                <span v-html="item.name"></span>
+                                <span class="time" v-html="item.time"></span>
+                            </div>
+                            <div class="position" v-html="item.position"></div>
+                            <ul v-for="value in item.desc">
+                                <li class="iconfont icon-wujiaoxing" v-html="value"></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column-6 column">
+                <div class="section">
+                    <title-wrapper zh="技能" en="Skills" icon="icon-gongju"></title-wrapper>
+                    <div class="sec-content" v-for="item in skill">
+                        <div class="time-line">
+                            <div class="timeline-title iconfont-middle" :class='item.icon' v-html="item.direction"></div>
+                            <template v-for="skillName in item.list">
+                                <div class="skill-name" v-html="skillName.name"></div>
+                                <ul v-for="value in skillName.desc">
+                                    <li class="iconfont icon-wujiaoxing" v-html='value'></li>
+                                </ul>
+                            </template>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

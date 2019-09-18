@@ -1,0 +1,161 @@
+{
+    "name":"折曜",
+    "target":"前端工程师",
+    "avatar": "./images/avatar.jpeg",
+    "messages":{
+        "tel": {
+            "icon": "icon-telephone",
+            "title":"188****7716",
+            "detail": "#"
+        },
+        "email":{
+            "icon": "icon-youxiang1",
+            "title":"zheyaoa@gmail.com",
+            "detail":"zheyaoa@gmail.com"
+        },
+        "blog":{
+            "icon": "icon-wifi",
+            "title":"zheyaoa 的博客乐园",
+            "detail":"https://zheyaoa.github.io/"
+        },
+        "github":{
+            "icon": "icon-GitHub",
+            "title": "zheyaoa",
+            "detail": "https://github.com/zheyaoa"
+        }
+    },
+    "education":[
+        {
+            "time":"2016-2020",
+            "school":"南昌大学",
+            "profession":"计算机科学与技术",
+            "experience":[
+                {
+                    "time":"2018.09-2019.02",
+                    "company": "新媒体工作室",
+                    "position": "前端负责人"
+
+                },{
+                    "time":"2019.02",
+                    "company": "北京市长亭科技",
+                    "position": "前端工程师"
+                }
+            ]
+        }
+    ],
+    "English":{
+        "CET-4":{
+            "name": "GET-4",
+            "grade":480,
+            "desc":"流畅阅读开发文档 & 无障碍观看开发者大会视频"
+        }
+    },
+    "project":[
+        {
+            "name":"K01 网络攻击阻断系统",
+            "time":"2019.07-至今",
+            "position":"前端负责人",
+            "desc":[
+                "负责<strong>前端部分(Vue+TSX)的开发</strong>,在预期时间内成功完成开发且顺利上线",
+                "基于<strong>Vue-cli+webpack</strong>完成项目前端部分的构建",
+                "维护公司内部组件库/开发了如基于<strong>Vuex+Vue-Router</strong>的导航栏组件等且具有一定可复用性"
+            ]
+        },{
+            "name":"长亭科技雷池(Web应用防火墙)",
+            "time":"2019.02-2019.06",
+            "position":"前端工程师",
+            "desc":[
+                "基于<strong>Vue.js+TSX</strong>完成基本需求的实现",
+                "将UI框架从<strong>Element-UI</strong>迁移到公司内部UI框架",
+                "整理需求与代码逻辑,完成部分模块的重构"
+            ]
+        },{
+            "name":"网上书店(课程小组作业)",
+            "time":"2018.10-2018.11",
+            "position":"前端/后端",
+            "desc":[
+                "基于<strong>Vue.js+Element-UI</strong>,开发多入口应用",
+                "基于axios完成二次封装,实现页面限权和统一错误处理",
+                "使用cookie保存用户信息,记忆登入状态",
+                "基于Java+Servlet开发后台系统,使用MVC结构,使用mysql作为数据库"
+            ]
+        },{
+            "name":"新媒体工作室内部系统",
+            "time":"2018.08-2018.09",
+            "position":"前端工程师",
+            "desc":[
+                "基于<strong>Vue.js+Element-UI</strong>,开发多入口应用",
+                "参与讨论项目设计,需求分析，原型架构,逐步完善项目",
+                "负责整个项目的技术选型,项目架构。负责公共组件的开发"
+            ]
+        }
+    ],
+    "skill":[
+        {
+            "direction":"Web前端",
+            "icon": "icon-web1",
+            "list":[{
+                "name":"<strong>HTML/CSS</strong>",
+                "desc":[
+                    "能编写语义化的<strong>HTML</strong>,熟悉<strong>CSS</strong>的使用,能编写常规的布局与动画",
+                    "了解<strong>HTML5/CSS3</strong>,能熟练使用部分新特性",
+                    "能编写<strong>响应式/移动端</strong>页面"
+                ]
+            },{
+                "name":"<strong>ESMAScript(JavaScript)</strong>",
+                "desc":[
+                    "了解<strong>JavaScript/ES6</strong>,能编写出遵循代码规范的代码",
+                    "了解<strong>JavaScript面向对象知识</strong>,对Vue.js源码有深入了解",
+                    "熟悉异步编程,<strong>掌握常见的解决方案及原理</strong>"
+                ]
+            },{
+                "name":"<strong>前端工程化实现</strong>",
+                "desc":[
+                    "日用使用<strong>ts + Vue/React</strong>完成各类需求",
+                    "日常使用<strong>Babel/ES6/TypeScript/TSLint</strong>本地化开发",
+                    "熟练使用<strong>Webpack</strong>,不借助脚手架，能完成<strong>前端工程化项目</strong>的构建"
+                ]
+            }]
+        },
+        {
+            "direction":"web 后端",
+            "icon": "icon-yun",
+            "list":[{
+                "name": "<strong>node.js</strong>",
+                "desc": [
+                    "使用<strong>node.js</strong>开发爬虫程序,使用异步控制来保证爬虫的有效和快速",
+                    "能配合<strong>mongodb/mysql</strong>完成<strong>CURD</strong>"
+                ]
+            },{
+                "name": "<strong>Java</strong>",
+                "desc":[
+                    "能用配合<strong>mysql</strong>完成<strong>CURD</strong>",
+                    "能正常的进行<strong>Java/JavaSpring</strong>项目的开发"
+                ]
+            },{
+                "name":"<strong>其他知识</strong>",
+                "desc":[
+                    "熟悉<strong>HTTP常见知识</strong>,对<strong>HTTP2/websocket</strong>知识有一定了解",
+                    "日常使用<strong>Docker</strong>完成项目的构建与部署"
+                ]
+            }]
+        },
+        {
+            "direction": "其他知识",
+            "icon": "icon-shezhi",
+            "list":[{
+                "name":"<strong>计算机基础</strong>",
+                "desc":[
+                    "计算机基础较好,对计算机与编程有极大热情,自学能力强",
+                    "坚持编写原创技术博客，对遇到的问题做总结归纳"
+                ]
+            },{
+                "name":"<strong>工具使用</strong>",
+                "desc":[
+                    "有Linux使用经验,使用Ubuntu作为日常系统",
+                    "熟练使用Git等代码管理与团队协作工具"
+                ]
+            }]
+        }
+    ]
+}
