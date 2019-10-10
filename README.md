@@ -1,3 +1,6 @@
 # Resume
-写的一个基于 html + css 的简历页面，想修改的话可以直接改代码
-下一步会做一个表单在线修改简历。(有时间的话)
+一个基于 Vue.js 写的在线 简历模板
+npm run dev 启动一个本地服务，修改info.json 获取对应简历
+npm run build 生成对应简历
+# Demo
+实现效果: https://zheyaoa.github.io/Resume/
