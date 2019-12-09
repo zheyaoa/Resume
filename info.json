@@ -36,7 +36,7 @@
                     "position": "前端负责人"
 
                 },{
-                    "time":"2019.02",
+                    "time":"2019.02-至今",
                     "company": "北京市长亭科技",
                     "position": "前端工程师"
                 }
@@ -52,21 +52,31 @@
     },
     "project":[
         {
+            "name": "Lmn-cli:<a href='https://www.npmjs.com/package/lmn-cli'><strong> link </strong></a>",
+            "time": "2019.11-2019.11",
+            "position": "前端工程师",
+            "desc":[
+                "Lmn-cli是一套基于yoeman可快速生成vue+tsx模板的<strong>脚手架工具</strong>",
+                "使用<strong>vuex</strong>作为状态管理工具,<strong>vue-router</strong>控制路由",
+                "使用<strong>eslint/prettier</strong>约束代码，<strong>Jest</strong>编写单元测试"
+            ]
+        },
+        {
             "name":"K01 网络攻击阻断系统",
-            "time":"2019.07-至今",
+            "time":"2019.07-2019.11",
             "position":"前端负责人",
             "desc":[
-                "负责<strong>前端部分(Vue+TSX)的开发</strong>,在预期时间内成功完成开发且顺利上线",
-                "基于<strong>Vue-cli+webpack</strong>完成项目前端部分的构建",
-                "维护公司内部组件库/开发了如基于<strong>Vuex+Vue-Router</strong>的导航栏组件等且具有一定可复用性"
+                "参与项目前端部分的<strong>选型与构建</strong>,在性能优化方向有充分考虑",
+                "负责<strong>前端部分(vue+tsx)的开发</strong>,在预期时间内成功完成开发且顺利上线",
+                "能快速<strong>定位并处理<strong>快速处理甲方提出的处理与bug"
             ]
         },{
-            "name":"长亭科技雷池(Web应用防火墙)",
-            "time":"2019.02-2019.06",
+            "name":"Splat UI",
+            "time":"2019.04-2019.06",
             "position":"前端工程师",
             "desc":[
-                "基于<strong>Vue.js+TSX</strong>完成基本需求的实现",
-                "将UI框架从<strong>Element-UI</strong>迁移到公司内部UI框架",
+                "Splat是一套基于<strong>Elemnt-ui</strong>进行二次封装的<strong>UI框架</strong>",
+                "基于<strong>Typescript<strong>编写具有高可复用性的代码，完成了Navigation等组件的编写",
                 "整理需求与代码逻辑,完成部分模块的重构"
             ]
         },{
@@ -75,18 +85,9 @@
             "position":"前端/后端",
             "desc":[
                 "基于<strong>Vue.js+Element-UI</strong>,开发多入口应用",
-                "基于axios完成二次封装,实现页面限权和统一错误处理",
+                "基于axios完成二次封装,实现页面鉴权和统一错误处理",
                 "使用cookie保存用户信息,记忆登入状态",
                 "基于Java+Servlet开发后台系统,使用MVC结构,使用mysql作为数据库"
-            ]
-        },{
-            "name":"新媒体工作室内部系统",
-            "time":"2018.08-2018.09",
-            "position":"前端工程师",
-            "desc":[
-                "基于<strong>Vue.js+Element-UI</strong>,开发多入口应用",
-                "参与讨论项目设计,需求分析，原型架构,逐步完善项目",
-                "负责整个项目的技术选型,项目架构。负责公共组件的开发"
             ]
         }
     ],
@@ -105,13 +106,13 @@
                 "name":"<strong>ESMAScript(JavaScript)</strong>",
                 "desc":[
                     "了解<strong>JavaScript/ES6</strong>,能编写出遵循代码规范的代码",
-                    "了解<strong>JavaScript面向对象知识</strong>,对Vue.js源码有深入了解",
+                    "了解<strong>JavaScript面向对象知识</strong>,对Vue.js/vue-router源码有深入了解",
                     "熟悉异步编程,<strong>掌握常见的解决方案及原理</strong>"
                 ]
             },{
                 "name":"<strong>前端工程化实现</strong>",
                 "desc":[
-                    "日用使用<strong>ts + Vue/React</strong>完成各类需求",
+                    "日用使用<strong>Typescript + Vue</strong>完成各类需求",
                     "日常使用<strong>Babel/ES6/TypeScript/TSLint</strong>本地化开发",
                     "熟练使用<strong>Webpack</strong>,不借助脚手架，能完成<strong>前端工程化项目</strong>的构建"
                 ]
