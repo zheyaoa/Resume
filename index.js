@@ -26,6 +26,12 @@ window.app = new Vue({
   data,
   created() {
     this.avatar = avatar;
+  },
+  methods:{
+      getUrl(data){
+          console.log(data)
+          return data.mail?'mailto':'' + data.detail
+      }
   }
 });
 

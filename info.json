@@ -9,16 +9,19 @@
             "detail": "#"
         },
         "email":{
+            "mail": "mailto:",
             "icon": "icon-youxiang1",
             "title":"zheyaoa@gmail.com",
             "detail":"zheyaoa@gmail.com"
         },
         "blog":{
+            "mail": "",
             "icon": "icon-wifi",
             "title":"zheyaoa 的博客乐园",
             "detail":"https://zheyaoa.github.io/"
         },
         "github":{
+            "mail": "",
             "icon": "icon-GitHub",
             "title": "zheyaoa",
             "detail": "https://github.com/zheyaoa"
@@ -31,13 +34,13 @@
             "profession":"计算机科学与技术",
             "experience":[
                 {
-                    "time":"2018.09-2019.02",
+                    "time":"2018.09-2019.02 ",
                     "company": "新媒体工作室",
                     "position": "前端负责人"
 
                 },{
-                    "time":"2019.02-至今",
-                    "company": "北京市长亭科技",
+                    "time":"<strong>2019.02 </strong>",
+                    "company": "<strong>阿里云</strong>",
                     "position": "前端工程师"
                 }
             ]
@@ -52,13 +55,13 @@
     },
     "project":[
         {
-            "name": "Lmn-cli:<a href='https://www.npmjs.com/package/lmn-cli'><strong> link </strong></a>",
+            "name": "<a href='https://www.npmjs.com/package/lmn-cli'>Lmn-cli</a>",
             "time": "2019.11-2019.11",
             "position": "前端工程师",
             "desc":[
                 "Lmn-cli是一套基于yoeman可快速生成vue+tsx模板的<strong>脚手架工具</strong>",
                 "使用<strong>vuex</strong>作为状态管理工具,<strong>vue-router</strong>控制路由",
-                "使用<strong>eslint/prettier</strong>约束代码，<strong>Jest</strong>编写单元测试"
+                "使用<strong>Eslint/prettier</strong>约束代码，<strong>Jest</strong>编写单元测试"
             ]
         },
         {
@@ -76,7 +79,7 @@
             "position":"前端工程师",
             "desc":[
                 "Splat是一套基于<strong>Elemnt-ui</strong>进行二次封装的<strong>UI框架</strong>",
-                "基于<strong>Typescript<strong>编写具有高可复用性的代码，完成了Navigation等组件的编写",
+                "基于<strong>Typescript</strong>编写具有高可复用性的代码，完成了Navigation等组件的编写",
                 "整理需求与代码逻辑,完成部分模块的重构"
             ]
         },{
@@ -85,9 +88,8 @@
             "position":"前端/后端",
             "desc":[
                 "基于<strong>Vue.js+Element-UI</strong>,开发多入口应用",
-                "基于axios完成二次封装,实现页面鉴权和统一错误处理",
-                "使用cookie保存用户信息,记忆登入状态",
-                "基于Java+Servlet开发后台系统,使用MVC结构,使用mysql作为数据库"
+                "基于<strong>axios</strong>完成二次封装,实现页面鉴权和统一错误处理",
+                "基于<strong>Java/Servlet</strong>开发后台系统,使用MVC结构,使用<strong>mysql</strong>作为数据库"
             ]
         }
     ],
@@ -106,14 +108,14 @@
                 "name":"<strong>ESMAScript(JavaScript)</strong>",
                 "desc":[
                     "了解<strong>JavaScript/ES6</strong>,能编写出遵循代码规范的代码",
-                    "了解<strong>JavaScript面向对象知识</strong>,对Vue.js/vue-router源码有深入了解",
+                    "了解<strong>JavaScript面向对象知识</strong>,对<strong>Vue.js/vue-router</strong>源码有深入了解",
                     "熟悉异步编程,<strong>掌握常见的解决方案及原理</strong>"
                 ]
             },{
                 "name":"<strong>前端工程化实现</strong>",
                 "desc":[
-                    "日用使用<strong>Typescript + Vue</strong>完成各类需求",
-                    "日常使用<strong>Babel/ES6/TypeScript/TSLint</strong>本地化开发",
+                    "日用使用<strong>Typescript/Vue</strong>完成各类需求",
+                    "日常使用<strong>Babel/ES6/TypeScript/eslint</strong>本地化开发",
                     "熟练使用<strong>Webpack</strong>,不借助脚手架，能完成<strong>前端工程化项目</strong>的构建"
                 ]
             }]

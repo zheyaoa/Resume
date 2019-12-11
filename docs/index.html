@@ -19,7 +19,7 @@
             <img class="avatar" :src=avatar>
             <ul class="message" >
                 <li v-for="item in messages" class="iconfont-title" :class=item.icon>
-                    <a href={item.detail}>{{item.title}}</a>
+                    <a :href="item.mail+item.detail"> {{item.title}}</a>
                 </li>
             </ul>
         </header>
@@ -35,7 +35,7 @@
                                     <ul>
                                         <li class="iconfont icon-xueweimao" v-html="edu.profession"></li>
                                         <template v-for="item in edu.experience">
-                                            <li class="iconfont icon-rongyu"><strong v-html="item.time"></strong>{{item.company}} — <strong>{{item.position}}</strong></li>
+                                            <li class="iconfont icon-rongyu"><span v-html="item.time"> </span> <span v-html='item.company'></span> — <strong>{{item.position}}</strong></li>
                                         </template>
                                     </ul>
                                 </div>
