@@ -1,46 +1,4 @@
-/* @media(min-width:1024px){ */
-    .column-6 {
-        float: left;
-        width: 50%
-    }
-    
-    .column {
-        padding-left: 15px;
-    }
-
-    .avatar {
-        width: 130px;
-        height: 130px;
-        float: left;
-    }
-    
-    .title {
-        float: right;
-        text-align: right;
-    }
-
-    .container {
-        width: 970px;
-        margin: 10px auto 0 auto;
-        box-shadow: 2px 2px 5px
-    }
-
-    header {
-        padding: 30px 45px;
-        color: #fff;
-        background: #333;
-        overflow: hidden;
-    }
-
-    .content {
-        padding: 30px 45px;
-        background: #fff;
-        overflow: hidden;
-    }
-    
-/* } */
-
-/* @media(max-width:1024px){
+@media(max-width:1024px){
     .column-6 {
         float: left;
         width: 100%
@@ -79,7 +37,49 @@
     
 }
 
- */
+
+@media(min-width:1024px), print{
+    .column-6 {
+        float: left;
+        width: 50%
+    }
+    
+    .column {
+        padding-left: 15px;
+    }
+
+    .avatar {
+        width: 130px;
+        height: 130px;
+        display: block;
+        float: left;
+    }
+    
+    .title {
+        float: right;
+        text-align: right;
+    }
+
+    .container {
+        width: 970px;
+        margin: 10px auto 0 auto;
+        box-shadow: 2px 2px 5px
+    }
+
+    header {
+        padding: 30px 45px;
+        color: #fff;
+        background: #333;
+        overflow: hidden;
+    }
+
+    .content {
+        padding: 30px 45px;
+        background: #fff;
+        overflow: hidden;
+    } 
+}
+
 
 
 .message {
